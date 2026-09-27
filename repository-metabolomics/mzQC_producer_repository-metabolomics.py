@@ -11,9 +11,7 @@ import urllib.parse
 from collections import Counter
 from dataclasses import dataclass, field
 from typing import Optional
-
 import pandas as pd
-
 
 DEFAULT_INPUT = "./metabolomics_repository_qc.csv"
 DEFAULT_OBO = "./psi-ms.obo"

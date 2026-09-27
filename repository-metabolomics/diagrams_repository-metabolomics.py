@@ -10,8 +10,6 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-plt.rcParams['font.family'] = 'Arial'
-
 
 #path to data
 
@@ -359,8 +357,6 @@ def fig_sankey_triage(csv_path, result_dir):
         'MS1 + MS2 (fragmentation)':   "#8a8c00",
         'MS3+ (deep)':                 "#ea7a0a",  
     }
-
-    FONT = 'Arial'
 
     def colored_label(text, hex_color):
         return (

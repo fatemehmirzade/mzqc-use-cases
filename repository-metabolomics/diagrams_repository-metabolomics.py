@@ -10,9 +10,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-
 #path to data
-
 CSV_PATH = "/Users/fateme/Desktop/test_metadata/QC/Paper/metabolomics_repository_qc.csv"
 
 #output path

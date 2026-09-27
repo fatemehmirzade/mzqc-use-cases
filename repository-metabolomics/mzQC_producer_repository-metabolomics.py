@@ -1,5 +1,3 @@
-# run the code with this -> python mzQC_producer_repository-metabolomics.py --n_rows 0 --output_dir metabolomics_mzQC
-
 from __future__ import annotations
 import argparse
 import datetime

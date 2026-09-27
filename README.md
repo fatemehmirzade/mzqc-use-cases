@@ -58,7 +58,7 @@ MSstatsQC river plot for the CPTAC study 9.1, site 65 system suitability runs
 
 **run**
 ```bash
-Rscript longitudinal-system-suitability.R ../data/input/Study_9_1_Site_65.csv ../data/output/longitudinal-system-suitability.pdf
+Rscript longitudinal-system-suitability.R ../data/input/Study_9_1_Site_65.csv ../data/output/longitudinal-system-suitability.png
 ```
 
 **output**
@@ -81,7 +81,7 @@ Rscript reproduce_TIC_DIAMetric.R ../data/input ../data/output
 
 **output**
 - `DIAMetric.mzqc` - DIA metrics as mzQC
-- `diametric.png` - figure 3
+- `diametric.png` - supplementary figure 1
 
 ## 4. repository scale metabolomics (figure 3)
 

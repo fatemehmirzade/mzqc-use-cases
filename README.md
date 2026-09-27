@@ -2,7 +2,7 @@
 
 These scripts reproduce the mzQC files and figures for the use cases in the manuscript "mzQC: a versatile way to communicate quality information for biological mass spectrometry"
 
-- **Code:** this GitHub repository (https://github.com/MS-Quality-Hub/mzqc-use-cases)
+- **Code:** this github repository (https://github.com/MS-Quality-Hub/mzqc-use-cases)
 - **Data:** zenodo, DOI [10.5281/zenodo.22959481](https://doi.org/10.5281/zenodo.22959481) and each use case has two folders on zenodo:
   - `input/` - files the script read
   - `output/` - mzQC files and figures the script produce
@@ -15,10 +15,10 @@ download the zenodo data and put it with the code so each use case will be like:
 
 ```
 <use-case>/
-├── code/          # from GitHub
+├── code/          #from github
 └── data/
-    ├── input/     # from zenodo
-    └── output/    # created by running related code but also available from zenodo
+    ├── input/     #from zenodo
+    └── output/    #created by running related code but also available from zenodo
 ```
 
 requirements:
